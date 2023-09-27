@@ -1,0 +1,1902 @@
+[
+  {
+    "site_owner": [
+      {
+        "id": "a5160904-38c7-406d-99e5-ee39eddbbcd9",
+        "site_name": "ABC Company",
+        "site_description": "A leading company in the industry",
+        "last_login": "2023-09-27T09:55:22.830Z",
+        "created_at": "2023-09-26T15:40:46.571Z",
+        "updated_at": "2023-09-26T19:04:55.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb6310e3-ac5b-4ce9-b6ba-c0e7fc1cb462",
+        "site_name": "XYZ Corporation",
+        "site_description": "Providing top-notch services",
+        "last_login": "2023-09-27T07:59:08.735Z",
+        "created_at": "2023-09-27T13:59:36.532Z",
+        "updated_at": "2023-09-26T18:31:43.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a53480e3-6a0f-4bb1-9dca-94736bbca896",
+        "site_name": "123 Enterprises",
+        "site_description": "Innovative solutions for your business",
+        "last_login": "2023-09-26T20:00:44.981Z",
+        "created_at": "2023-09-27T07:41:20.363Z",
+        "updated_at": "2023-09-26T20:45:34.548Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf02ed47-c9f2-40a3-ac0c-de832023d2f6",
+        "site_name": "PQR Ltd.",
+        "site_description": "Trusted by thousands of clients",
+        "last_login": "2023-09-27T10:38:23.704Z",
+        "created_at": "2023-09-27T01:25:57.606Z",
+        "updated_at": "2023-09-27T01:38:32.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2074bfe7-3019-4d4a-abbb-5e4965ca5d26",
+        "site_name": "MNO Group",
+        "site_description": "Driving success through technology",
+        "last_login": "2023-09-27T03:31:03.959Z",
+        "created_at": "2023-09-26T23:12:58.296Z",
+        "updated_at": "2023-09-27T13:41:28.526Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "0fc79b52-8ab8-414d-97ee-32d8f8466d6a",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-26T19:47:18.862Z",
+        "created_at": "2023-09-27T09:31:16.350Z",
+        "updated_at": "2023-09-26T22:40:09.098Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c02c3c3-fd87-4817-8c94-0b8300b761d6",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T10:04:18.842Z",
+        "created_at": "2023-09-27T12:41:01.574Z",
+        "updated_at": "2023-09-26T19:44:05.565Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb79cd86-3f7e-4e13-a4ce-10eb4ebaf44c",
+        "profile_visibility": "Restricted",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T14:13:09.131Z",
+        "created_at": "2023-09-27T03:58:28.765Z",
+        "updated_at": "2023-09-26T18:01:04.550Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2a90898-5b5e-4ed4-998b-8b9aade7e045",
+        "profile_visibility": "Limited",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T07:55:12.962Z",
+        "created_at": "2023-09-27T00:22:37.202Z",
+        "updated_at": "2023-09-27T01:40:45.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c6c1e07-37ad-4fe9-aca6-cc1a70240f81",
+        "profile_visibility": "Custom",
+        "profile_status": "Verified",
+        "last_login": "2023-09-27T12:04:04.716Z",
+        "created_at": "2023-09-27T12:58:01.910Z",
+        "updated_at": "2023-09-27T04:24:21.573Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "cd78a57e-a62c-4971-9e57-4307a6413e3b",
+        "role_name": "Admin",
+        "permissions": "Read",
+        "last_login": "2023-09-26T19:24:31.601Z",
+        "created_at": "2023-09-27T13:33:47.892Z",
+        "updated_at": "2023-09-26T18:59:04.262Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c29373f-0076-4b96-9c46-5b999da3af9b",
+        "role_name": "Superuser",
+        "permissions": "Write",
+        "last_login": "2023-09-26T19:03:40.740Z",
+        "created_at": "2023-09-27T09:10:42.040Z",
+        "updated_at": "2023-09-26T21:53:53.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56ce7a01-f570-4990-b6f4-af2a0663f8e3",
+        "role_name": "Manager",
+        "permissions": "Update",
+        "last_login": "2023-09-26T16:28:41.840Z",
+        "created_at": "2023-09-27T04:39:49.995Z",
+        "updated_at": "2023-09-26T14:52:20.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c89fce1-5b36-490d-b0b2-c4c119c9db8d",
+        "role_name": "Supervisor",
+        "permissions": "Delete",
+        "last_login": "2023-09-26T15:49:21.599Z",
+        "created_at": "2023-09-27T07:21:34.851Z",
+        "updated_at": "2023-09-27T03:55:15.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ae1e393-f30e-4abb-8d46-064c85675033",
+        "role_name": "Coordinator",
+        "permissions": "Approve",
+        "last_login": "2023-09-26T14:53:46.149Z",
+        "created_at": "2023-09-26T18:20:23.519Z",
+        "updated_at": "2023-09-27T08:43:39.031Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e8e060d-d02f-4a62-9056-734364c6807b",
+        "email": "Alivia_Gusikowski1@roq.tech",
+        "firstName": "London",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5bf20ccd-4e14-4313-b89d-865835cfc995",
+        "email": "Brooklyn.Gleichner89@roq.tech",
+        "firstName": "Evelyn",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/357.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1399ebfa-7cc1-4967-9610-f2e41954f2c8",
+        "email": "Theron.Mueller35@roq.tech",
+        "firstName": "Caroline",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17354924",
+        "tenantId": null
+      },
+      {
+        "reference": "97067202-2037-43fb-a99b-5363188192ec",
+        "email": "Flavio_Fadel@roq.tech",
+        "firstName": "Jade",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22010519",
+        "tenantId": null
+      },
+      {
+        "reference": "e699a09a-3a65-43ea-8724-083353dadf66",
+        "email": "Palma_Kuhlman20@roq.tech",
+        "firstName": "Taryn",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "53b565a9-902b-4611-819a-1fc546d1401a",
+        "site_name": "Example Site 1",
+        "site_description": "This is a sample site",
+        "last_login": "2023-09-27T11:19:58.262Z",
+        "created_at": "2023-09-27T08:52:59.257Z",
+        "updated_at": "2023-09-27T13:27:37.220Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30c811d3-8e96-4b75-9fd5-24259f5e63e1",
+        "site_name": "Example Site 2",
+        "site_description": "Lorem ipsum dolor sit amet",
+        "last_login": "2023-09-27T09:28:00.646Z",
+        "created_at": "2023-09-26T17:47:04.992Z",
+        "updated_at": "2023-09-27T03:30:54.441Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b16922bb-ccb1-4dc6-a755-9e2071e14501",
+        "site_name": "Example Site 3",
+        "site_description": "Consectetur adipiscing elit",
+        "last_login": "2023-09-26T22:17:53.831Z",
+        "created_at": "2023-09-26T18:37:30.805Z",
+        "updated_at": "2023-09-26T18:56:50.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed64e829-588e-4aaf-9acb-9ac5d1a4a756",
+        "site_name": "Example Site 4",
+        "site_description": "Sed do eiusmod tempor incididunt",
+        "last_login": "2023-09-27T00:54:17.154Z",
+        "created_at": "2023-09-27T13:52:25.232Z",
+        "updated_at": "2023-09-27T14:27:31.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8f18928-1642-4a4c-8a09-8325217dcbd4",
+        "site_name": "Example Site 5",
+        "site_description": "Ut labore et dolore magna aliqua",
+        "last_login": "2023-09-26T14:57:33.667Z",
+        "created_at": "2023-09-27T10:30:15.421Z",
+        "updated_at": "2023-09-27T01:37:39.990Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "86d603e0-9117-4d48-afd6-fe434a7aca3f",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-26T15:11:08.739Z",
+        "created_at": "2023-09-27T02:38:32.080Z",
+        "updated_at": "2023-09-26T22:00:23.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96c24696-575c-4992-9d1a-6db535468598",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T02:45:28.735Z",
+        "created_at": "2023-09-26T15:23:44.651Z",
+        "updated_at": "2023-09-26T22:43:08.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f602b28-f76a-4083-9f8f-e4428165d334",
+        "profile_visibility": "Friends Only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T06:40:16.790Z",
+        "created_at": "2023-09-27T07:36:39.702Z",
+        "updated_at": "2023-09-27T05:06:24.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5989401-0f64-4fb5-8670-3b85911d6596",
+        "profile_visibility": "Custom",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T00:30:49.065Z",
+        "created_at": "2023-09-27T10:02:55.467Z",
+        "updated_at": "2023-09-27T03:30:06.444Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aee9bd8f-ef0c-4cb9-a413-4efbaa306e82",
+        "profile_visibility": "Restricted",
+        "profile_status": "Suspended",
+        "last_login": "2023-09-27T06:55:15.761Z",
+        "created_at": "2023-09-27T01:56:51.843Z",
+        "updated_at": "2023-09-26T22:51:46.616Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d8a5c5d4-3a32-439e-91f2-0870fc089b9e",
+        "role_name": "Admin",
+        "permissions": "Create",
+        "last_login": "2023-09-27T00:11:09.230Z",
+        "created_at": "2023-09-27T01:27:51.088Z",
+        "updated_at": "2023-09-27T02:22:33.906Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bcbe205-0092-47b1-b417-b464d06d5002",
+        "role_name": "Superuser",
+        "permissions": "Read",
+        "last_login": "2023-09-26T18:52:16.550Z",
+        "created_at": "2023-09-26T18:31:38.675Z",
+        "updated_at": "2023-09-27T12:26:30.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32ea502d-5dfe-41c4-963c-9b57328e3ad0",
+        "role_name": "Manager",
+        "permissions": "Update",
+        "last_login": "2023-09-27T13:19:38.966Z",
+        "created_at": "2023-09-26T22:47:34.426Z",
+        "updated_at": "2023-09-26T21:57:22.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a525018-79e6-44b5-92bc-d60eb78c9023",
+        "role_name": "Editor",
+        "permissions": "Delete",
+        "last_login": "2023-09-27T13:29:15.592Z",
+        "created_at": "2023-09-27T11:32:37.505Z",
+        "updated_at": "2023-09-27T13:37:19.702Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6fa9c15-3ebb-4f2b-8194-c02022a52dfa",
+        "role_name": "Moderator",
+        "permissions": "Manage",
+        "last_login": "2023-09-27T11:40:47.778Z",
+        "created_at": "2023-09-27T14:46:44.280Z",
+        "updated_at": "2023-09-27T11:03:34.551Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "80c12269-fbb0-465a-9cb1-f98f09d08bc1",
+        "email": "Okey.Blanda@roq.tech",
+        "firstName": "Edmond",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83f2e00c-87ac-4eb0-bb13-f72b35f76230",
+        "email": "Nigel.Greenfelder86@roq.tech",
+        "firstName": "Herminio",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21386117",
+        "tenantId": null
+      },
+      {
+        "reference": "eb3fe006-4ee4-45c0-990e-1006a675effc",
+        "email": "Lilly61@roq.tech",
+        "firstName": "Cassidy",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c6173f1-8fda-4ef8-85f7-1bc6709dff72",
+        "email": "Gregory56@roq.tech",
+        "firstName": "Robin",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28887746",
+        "tenantId": null
+      },
+      {
+        "reference": "0347b577-e8ee-4d07-879e-824fd9d6eb73",
+        "email": "Darlene_Koss@roq.tech",
+        "firstName": "Emmalee",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "d50fa5c3-28d1-4080-910f-5bd6beed5e43",
+        "site_name": "Example Site 1",
+        "site_description": "A website for showcasing products",
+        "last_login": "2023-09-26T23:16:57.734Z",
+        "created_at": "2023-09-26T19:35:44.126Z",
+        "updated_at": "2023-09-26T16:31:36.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eae7f0b6-043d-46bb-bd59-10bca45e63e1",
+        "site_name": "Example Site 2",
+        "site_description": "An online community for artists",
+        "last_login": "2023-09-26T14:58:26.062Z",
+        "created_at": "2023-09-26T18:14:09.648Z",
+        "updated_at": "2023-09-27T00:25:47.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "926bbd8a-754b-4b15-bfd5-f86c4beb7f03",
+        "site_name": "Example Site 3",
+        "site_description": "A blog about travel and adventure",
+        "last_login": "2023-09-26T15:36:35.888Z",
+        "created_at": "2023-09-27T00:43:27.278Z",
+        "updated_at": "2023-09-26T22:04:08.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "683992cc-f1eb-4118-a4d6-c15ac294260f",
+        "site_name": "Example Site 4",
+        "site_description": "An e-commerce platform for handmade crafts",
+        "last_login": "2023-09-27T12:11:08.071Z",
+        "created_at": "2023-09-27T14:42:54.916Z",
+        "updated_at": "2023-09-27T03:19:38.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c4071c9-c44f-44e1-beba-3889662a4244",
+        "site_name": "Example Site 5",
+        "site_description": "A news portal for technology enthusiasts",
+        "last_login": "2023-09-26T21:26:16.217Z",
+        "created_at": "2023-09-26T17:59:27.760Z",
+        "updated_at": "2023-09-27T09:45:41.354Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "3d194442-8bed-466b-ab2a-3a4092d98e89",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T10:32:41.925Z",
+        "created_at": "2023-09-27T07:34:15.886Z",
+        "updated_at": "2023-09-27T04:20:41.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0e96c34-ba64-45e0-9d95-26cd10c2a425",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-26T22:25:14.041Z",
+        "created_at": "2023-09-26T17:12:36.466Z",
+        "updated_at": "2023-09-27T10:58:47.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a233efcd-9d3e-43dc-8729-eeb6f0683905",
+        "profile_visibility": "Friends only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T08:58:29.817Z",
+        "created_at": "2023-09-27T07:57:50.960Z",
+        "updated_at": "2023-09-27T01:19:52.913Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bce0436-9e25-4ed1-b7e8-16ede13a0fd5",
+        "profile_visibility": "Restricted",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T06:30:55.998Z",
+        "created_at": "2023-09-27T05:19:45.492Z",
+        "updated_at": "2023-09-26T20:36:33.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22ee24d2-44a0-4501-b637-c5d8bc0309bf",
+        "profile_visibility": "Custom",
+        "profile_status": "Suspended",
+        "last_login": "2023-09-27T05:30:01.132Z",
+        "created_at": "2023-09-26T22:18:25.636Z",
+        "updated_at": "2023-09-27T14:45:26.375Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "b021342c-68d6-4ea8-8901-8740aae5f659",
+        "role_name": "Admin",
+        "permissions": "Manage users",
+        "last_login": "2023-09-27T06:27:16.507Z",
+        "created_at": "2023-09-26T22:01:30.444Z",
+        "updated_at": "2023-09-27T13:07:26.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2adf9177-57b9-4d33-a3e1-da3ac3b26577",
+        "role_name": "Super Admin",
+        "permissions": "Create content",
+        "last_login": "2023-09-27T06:05:08.413Z",
+        "created_at": "2023-09-26T21:24:40.834Z",
+        "updated_at": "2023-09-27T08:48:27.388Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3592a862-c83c-4667-b087-8e6144833c92",
+        "role_name": "Moderator",
+        "permissions": "Edit settings",
+        "last_login": "2023-09-27T03:38:39.924Z",
+        "created_at": "2023-09-26T23:41:34.173Z",
+        "updated_at": "2023-09-26T21:32:31.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7efc163a-9fec-4498-a005-a8b0457204ed",
+        "role_name": "Support",
+        "permissions": "View analytics",
+        "last_login": "2023-09-26T23:43:06.116Z",
+        "created_at": "2023-09-27T12:05:48.182Z",
+        "updated_at": "2023-09-27T06:10:11.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71658b25-109a-404b-937e-d0b1b3ffd875",
+        "role_name": "Editor",
+        "permissions": "Approve comments",
+        "last_login": "2023-09-27T13:48:15.489Z",
+        "created_at": "2023-09-26T15:28:52.651Z",
+        "updated_at": "2023-09-27T04:45:18.936Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3dcbb1ee-6964-4d68-a295-a5495cc9d039",
+        "email": "Layla_Nikolaus65@roq.tech",
+        "firstName": "Justen",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92102828",
+        "tenantId": null
+      },
+      {
+        "reference": "76c1ab10-b3a5-4b2e-a428-3662b5d34ca6",
+        "email": "Dana.Pagac@roq.tech",
+        "firstName": "Brielle",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7b3123b-afc9-4b58-9831-3651545d22a5",
+        "email": "Lenora55@roq.tech",
+        "firstName": "Coby",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30670084",
+        "tenantId": null
+      },
+      {
+        "reference": "701d62e4-1290-4170-be8b-6d785ea9921f",
+        "email": "Marisol.Douglas32@roq.tech",
+        "firstName": "Kay",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/536.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc3e6723-e6a8-4693-8c1f-319025af0dd4",
+        "email": "Wilfrid.Reynolds@roq.tech",
+        "firstName": "Amira",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/775.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "4a25f98c-a5a8-4a96-ac5a-b5d97ae12da7",
+        "site_name": "Example Site",
+        "site_description": "This is an example site",
+        "last_login": "2023-09-26T17:47:11.733Z",
+        "created_at": "2023-09-27T13:13:35.178Z",
+        "updated_at": "2023-09-26T18:12:55.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cb75275-ebc6-4027-8476-2df0e1ed78ce",
+        "site_name": "My Website",
+        "site_description": "Welcome to my website",
+        "last_login": "2023-09-27T10:58:44.045Z",
+        "created_at": "2023-09-27T01:51:50.816Z",
+        "updated_at": "2023-09-26T21:03:19.134Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe9f7237-adda-451c-b0e8-c0285365551a",
+        "site_name": "Awesome Site",
+        "site_description": "Discover the awesome site",
+        "last_login": "2023-09-27T14:13:04.117Z",
+        "created_at": "2023-09-26T15:49:34.735Z",
+        "updated_at": "2023-09-27T12:32:31.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86a118f-5ba4-457f-8fa5-a7eb45e61f35",
+        "site_name": "Best Web",
+        "site_description": "The best web experience",
+        "last_login": "2023-09-27T13:33:17.700Z",
+        "created_at": "2023-09-27T00:59:11.396Z",
+        "updated_at": "2023-09-27T03:04:24.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c03190-d37a-437e-a5c3-7bbccafa17f7",
+        "site_name": "Top Site",
+        "site_description": "Explore the top site",
+        "last_login": "2023-09-27T10:09:30.111Z",
+        "created_at": "2023-09-27T13:16:13.938Z",
+        "updated_at": "2023-09-27T05:06:14.415Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a2d47f06-8132-4a96-bd16-d99350920003",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T12:43:11.663Z",
+        "created_at": "2023-09-27T04:01:16.427Z",
+        "updated_at": "2023-09-26T16:31:21.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39f378ea-2613-4015-b054-9936661158ce",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-26T21:46:31.040Z",
+        "created_at": "2023-09-27T10:59:50.027Z",
+        "updated_at": "2023-09-26T23:35:50.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f96ebac-a3a0-4ac5-b6cf-a442288ddb5c",
+        "profile_visibility": "Friends only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T10:05:36.639Z",
+        "created_at": "2023-09-26T20:12:59.877Z",
+        "updated_at": "2023-09-26T19:46:19.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86eef51-89f5-42dd-9d4e-49a166015f28",
+        "profile_visibility": "Custom",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T06:45:18.905Z",
+        "created_at": "2023-09-26T20:27:02.715Z",
+        "updated_at": "2023-09-27T08:01:30.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9412660-b1ac-4cdb-ade4-57182253b987",
+        "profile_visibility": "Restricted",
+        "profile_status": "Deleted",
+        "last_login": "2023-09-27T04:26:49.934Z",
+        "created_at": "2023-09-26T18:51:17.140Z",
+        "updated_at": "2023-09-26T15:20:42.785Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d5c7b12a-c1f8-4d91-a9c2-fd02ae5d0c12",
+        "role_name": "Admin",
+        "permissions": "Read",
+        "last_login": "2023-09-27T02:40:37.913Z",
+        "created_at": "2023-09-27T14:03:50.156Z",
+        "updated_at": "2023-09-27T03:01:12.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb87fa8b-01fc-473d-8997-c17e64fca319",
+        "role_name": "Superuser",
+        "permissions": "Write",
+        "last_login": "2023-09-27T12:31:03.581Z",
+        "created_at": "2023-09-26T17:00:09.499Z",
+        "updated_at": "2023-09-26T15:29:26.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "122764ee-3b40-4717-a3e2-48645cf6e2af",
+        "role_name": "Manager",
+        "permissions": "Delete",
+        "last_login": "2023-09-27T00:47:54.319Z",
+        "created_at": "2023-09-27T02:50:48.088Z",
+        "updated_at": "2023-09-27T13:12:59.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "007ceee1-3abd-44e6-9573-7b4f14e10621",
+        "role_name": "Supervisor",
+        "permissions": "Update",
+        "last_login": "2023-09-27T14:02:55.314Z",
+        "created_at": "2023-09-27T13:02:34.363Z",
+        "updated_at": "2023-09-27T01:45:36.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2fa79f-44ca-4835-947b-9cd72f4eea6d",
+        "role_name": "Coordinator",
+        "permissions": "Manage",
+        "last_login": "2023-09-27T13:31:42.992Z",
+        "created_at": "2023-09-26T15:44:49.726Z",
+        "updated_at": "2023-09-26T21:05:23.544Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8429f57b-47b3-43fa-89bc-3990c730d57b",
+        "email": "Eliza_Monahan@roq.tech",
+        "firstName": "Efrain",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7e4a111-54c1-42a4-a4f0-49404a767aa0",
+        "email": "Beverly99@roq.tech",
+        "firstName": "Arvilla",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1332668",
+        "tenantId": null
+      },
+      {
+        "reference": "961a5b22-ae1a-47ea-a879-91f21ec8bbd9",
+        "email": "Israel.Thompson15@roq.tech",
+        "firstName": "Delia",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65153655",
+        "tenantId": null
+      },
+      {
+        "reference": "f042810b-056d-4bec-aaa4-7027689ec054",
+        "email": "Malinda17@roq.tech",
+        "firstName": "Shania",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/775.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "954a5697-09bb-4143-8ddf-a5fca26583ab",
+        "email": "Sandra.Treutel@roq.tech",
+        "firstName": "Allan",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1982562",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "faeb2828-1c6c-4f8a-b234-69c5144eae53",
+        "site_name": "Site A",
+        "site_description": "Site A description",
+        "last_login": "2023-09-26T15:56:06.208Z",
+        "created_at": "2023-09-27T11:04:16.415Z",
+        "updated_at": "2023-09-27T06:13:47.511Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6b2ba92-a86e-44b9-bb1c-182ae80318cb",
+        "site_name": "Site B",
+        "site_description": "Site B description",
+        "last_login": "2023-09-26T17:40:41.588Z",
+        "created_at": "2023-09-27T09:45:23.217Z",
+        "updated_at": "2023-09-26T17:10:08.729Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80a3e2d5-0474-4a90-b50e-54dc7e7b8c43",
+        "site_name": "Site C",
+        "site_description": "Site C description",
+        "last_login": "2023-09-26T22:26:35.887Z",
+        "created_at": "2023-09-27T01:08:43.205Z",
+        "updated_at": "2023-09-26T21:24:18.911Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8616991-2cf8-4699-86f2-e4b8be2478b1",
+        "site_name": "Site D",
+        "site_description": "Site D description",
+        "last_login": "2023-09-27T00:42:24.002Z",
+        "created_at": "2023-09-27T04:45:12.501Z",
+        "updated_at": "2023-09-27T10:11:26.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86f157a9-1b33-4d9e-b094-1bc566b18519",
+        "site_name": "Site E",
+        "site_description": "Site E description",
+        "last_login": "2023-09-27T09:48:50.072Z",
+        "created_at": "2023-09-27T10:05:34.605Z",
+        "updated_at": "2023-09-26T20:16:03.525Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "0fd294cd-9cdf-497a-83be-853bfd535e7a",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T08:59:03.751Z",
+        "created_at": "2023-09-27T12:08:55.644Z",
+        "updated_at": "2023-09-27T11:18:15.712Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a74d947-08a0-425f-aa78-5718e6486baa",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T10:56:01.904Z",
+        "created_at": "2023-09-27T00:02:04.617Z",
+        "updated_at": "2023-09-26T18:37:26.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d60f0914-b3f7-4c88-86f3-ece6eb0febd7",
+        "profile_visibility": "Friends Only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-26T17:00:41.406Z",
+        "created_at": "2023-09-27T06:25:38.337Z",
+        "updated_at": "2023-09-27T02:56:47.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fcb0ee5-6d0c-496d-98c4-17e04e1f4c1e",
+        "profile_visibility": "Restricted",
+        "profile_status": "Suspended",
+        "last_login": "2023-09-27T13:23:33.245Z",
+        "created_at": "2023-09-27T12:05:12.714Z",
+        "updated_at": "2023-09-27T09:56:27.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d65f838-6e88-4944-a011-286a69d14a8a",
+        "profile_visibility": "Custom",
+        "profile_status": "Archived",
+        "last_login": "2023-09-27T00:28:54.364Z",
+        "created_at": "2023-09-26T20:49:50.132Z",
+        "updated_at": "2023-09-27T01:07:43.627Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "0121a366-5889-41c1-b8ca-7aeb96995dd5",
+        "role_name": "Admin",
+        "permissions": "Manage Users",
+        "last_login": "2023-09-27T11:16:44.236Z",
+        "created_at": "2023-09-27T05:58:11.047Z",
+        "updated_at": "2023-09-27T09:30:14.427Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ceb04e-5d47-4d0f-9f27-6c6b13c4aaa5",
+        "role_name": "Super Admin",
+        "permissions": "Manage Teams",
+        "last_login": "2023-09-27T00:21:33.720Z",
+        "created_at": "2023-09-27T12:11:53.934Z",
+        "updated_at": "2023-09-27T04:24:35.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1025eda8-56fa-4d89-ae43-f4e94f4f8171",
+        "role_name": "Moderator",
+        "permissions": "Manage Sites",
+        "last_login": "2023-09-26T19:27:46.283Z",
+        "created_at": "2023-09-27T11:04:16.227Z",
+        "updated_at": "2023-09-26T17:40:25.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7537e1a-e47b-443e-b324-5029de210fef",
+        "role_name": "Support",
+        "permissions": "Manage Customers",
+        "last_login": "2023-09-26T20:59:39.041Z",
+        "created_at": "2023-09-26T15:00:31.680Z",
+        "updated_at": "2023-09-27T03:28:55.394Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5b1c61-2b5a-4d6b-8165-0bc1585918c9",
+        "role_name": "Editor",
+        "permissions": "Manage Administrators",
+        "last_login": "2023-09-27T06:03:55.601Z",
+        "created_at": "2023-09-27T04:45:56.437Z",
+        "updated_at": "2023-09-27T02:28:48.563Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fce18857-236d-4778-a76f-f1bedd1de5b7",
+        "email": "Vince_Prohaska@roq.tech",
+        "firstName": "Kirsten",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41342345",
+        "tenantId": null
+      },
+      {
+        "reference": "77e87b49-afd8-4720-a3d3-f59989d93f8d",
+        "email": "Cloyd.Orn81@roq.tech",
+        "firstName": "Gracie",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c8eb619-3432-41da-ba74-35520f61b1ed",
+        "email": "Ethel66@roq.tech",
+        "firstName": "Prudence",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/36.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec171302-e2b2-45f5-b901-a3aa52d5df3f",
+        "email": "Kamren1@roq.tech",
+        "firstName": "Keagan",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5112038",
+        "tenantId": null
+      },
+      {
+        "reference": "9f15cd03-4fb2-4dee-9cd1-d92922bb8887",
+        "email": "Jeanne_Larson12@roq.tech",
+        "firstName": "Chad",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87667311",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "c36fdaad-d21e-4819-a648-f9a35b4941fa",
+        "site_name": "ABC Company",
+        "site_description": "Leading provider of innovative solutions",
+        "last_login": "2023-09-26T19:39:32.996Z",
+        "created_at": "2023-09-26T21:18:10.936Z",
+        "updated_at": "2023-09-27T08:40:38.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41fda083-bd22-4573-8f0b-47d087191fb6",
+        "site_name": "XYZ Enterprises",
+        "site_description": "Trusted partner for businesses worldwide",
+        "last_login": "2023-09-27T11:54:02.594Z",
+        "created_at": "2023-09-27T06:33:21.877Z",
+        "updated_at": "2023-09-27T11:49:42.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2892cf34-64a9-4ee8-a4cc-413c66b31dda",
+        "site_name": "123 Corporation",
+        "site_description": "Delivering excellence since 2005",
+        "last_login": "2023-09-27T06:27:28.187Z",
+        "created_at": "2023-09-27T08:43:37.160Z",
+        "updated_at": "2023-09-27T01:01:29.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4cd7268-f284-4fdc-adbf-9fa563ed5217",
+        "site_name": "PQR Ltd.",
+        "site_description": "Your gateway to success",
+        "last_login": "2023-09-27T12:30:40.822Z",
+        "created_at": "2023-09-27T12:51:54.523Z",
+        "updated_at": "2023-09-27T11:04:45.056Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2754c9b-4601-4871-9d55-ff58d5c78122",
+        "site_name": "MNO Group",
+        "site_description": "Empowering businesses to thrive",
+        "last_login": "2023-09-27T00:46:39.715Z",
+        "created_at": "2023-09-26T21:27:14.010Z",
+        "updated_at": "2023-09-26T19:59:00.166Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "638b624a-066a-406e-8647-d5298bf5c496",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-26T22:28:53.311Z",
+        "created_at": "2023-09-27T08:34:19.972Z",
+        "updated_at": "2023-09-27T10:38:59.660Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42c37a99-1a3f-4b02-aa51-76454687ba7e",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T10:25:55.325Z",
+        "created_at": "2023-09-27T08:31:34.100Z",
+        "updated_at": "2023-09-27T03:35:49.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba170bae-41d9-40f0-a080-55e6126665dc",
+        "profile_visibility": "Restricted",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T12:13:08.968Z",
+        "created_at": "2023-09-27T05:28:47.706Z",
+        "updated_at": "2023-09-26T23:43:48.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a078f127-5495-42b1-98dc-08659d2b681f",
+        "profile_visibility": "Limited",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T00:00:33.198Z",
+        "created_at": "2023-09-26T22:28:11.017Z",
+        "updated_at": "2023-09-27T11:24:53.660Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "102651ca-ad60-4a28-90d9-75047466865a",
+        "profile_visibility": "Custom",
+        "profile_status": "Verified",
+        "last_login": "2023-09-26T23:41:48.849Z",
+        "created_at": "2023-09-27T03:28:57.488Z",
+        "updated_at": "2023-09-27T04:32:14.879Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "9814b43d-c7af-48fc-bc6c-0466f5893cdc",
+        "role_name": "Admin",
+        "permissions": "Create",
+        "last_login": "2023-09-27T10:47:18.913Z",
+        "created_at": "2023-09-27T00:34:52.585Z",
+        "updated_at": "2023-09-26T20:30:18.477Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68c3b5c9-1f37-4f68-8047-31f15d857caf",
+        "role_name": "Superuser",
+        "permissions": "Read",
+        "last_login": "2023-09-27T10:19:35.213Z",
+        "created_at": "2023-09-27T04:02:29.871Z",
+        "updated_at": "2023-09-27T04:25:39.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eba70542-e8fb-4319-a377-075359901be6",
+        "role_name": "Manager",
+        "permissions": "Update",
+        "last_login": "2023-09-27T11:11:34.569Z",
+        "created_at": "2023-09-27T11:15:45.516Z",
+        "updated_at": "2023-09-27T13:22:52.662Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3b92e4e-c6d4-4776-a9eb-d276949d7e0e",
+        "role_name": "Supervisor",
+        "permissions": "Delete",
+        "last_login": "2023-09-26T21:29:01.973Z",
+        "created_at": "2023-09-27T06:30:57.950Z",
+        "updated_at": "2023-09-27T03:46:04.130Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84d48dea-1b1f-465d-a8be-c802777d8e29",
+        "role_name": "Coordinator",
+        "permissions": "Manage",
+        "last_login": "2023-09-27T03:40:37.863Z",
+        "created_at": "2023-09-26T21:34:38.994Z",
+        "updated_at": "2023-09-27T00:54:27.014Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc656d0e-40a1-48c7-ad58-28d06ac158dd",
+        "email": "Ladarius25@roq.tech",
+        "firstName": "Vilma",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11346251",
+        "tenantId": null
+      },
+      {
+        "reference": "8390612e-3bdb-4fd2-94c3-9cb939d087f1",
+        "email": "Robbie94@roq.tech",
+        "firstName": "Bernard",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88110554",
+        "tenantId": null
+      },
+      {
+        "reference": "0e6886c3-665e-4f72-a3a7-26b17c9dca7a",
+        "email": "Hillary.Breitenberg73@roq.tech",
+        "firstName": "Halie",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73592973",
+        "tenantId": null
+      },
+      {
+        "reference": "80875655-dc8b-4f0a-8fbd-38228c446e8f",
+        "email": "Jesus46@roq.tech",
+        "firstName": "Bruce",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f995823a-46da-4e86-b21f-8a893b3babce",
+        "email": "Adan.King@roq.tech",
+        "firstName": "Jack",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79178463",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "831000af-72d6-4692-810a-30a93858710c",
+        "site_name": "Example Site 1",
+        "site_description": "A website for showcasing products",
+        "last_login": "2023-09-26T21:26:07.739Z",
+        "created_at": "2023-09-27T09:57:47.241Z",
+        "updated_at": "2023-09-27T10:21:07.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5ccfbbb-4dc6-45c9-bcb1-6af65e4c2632",
+        "site_name": "Example Site 2",
+        "site_description": "An online platform for booking services",
+        "last_login": "2023-09-26T18:13:03.157Z",
+        "created_at": "2023-09-26T20:17:35.930Z",
+        "updated_at": "2023-09-27T06:52:24.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e71c2b8-2277-4b21-90a7-3dd8b54691ff",
+        "site_name": "Example Site 3",
+        "site_description": "A blog about travel and adventure",
+        "last_login": "2023-09-27T01:35:23.111Z",
+        "created_at": "2023-09-27T13:51:17.499Z",
+        "updated_at": "2023-09-27T01:40:04.792Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7811100e-2e41-4b7d-b7fe-57fc9509f812",
+        "site_name": "Example Site 4",
+        "site_description": "A community forum for discussing technology",
+        "last_login": "2023-09-26T23:25:51.115Z",
+        "created_at": "2023-09-27T14:28:36.811Z",
+        "updated_at": "2023-09-27T02:04:56.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac4b11e-2f8d-4e9b-b5c6-1b313bad0b92",
+        "site_name": "Example Site 5",
+        "site_description": "An e-commerce site for selling handmade crafts",
+        "last_login": "2023-09-26T19:54:53.202Z",
+        "created_at": "2023-09-26T21:29:25.067Z",
+        "updated_at": "2023-09-27T06:34:53.532Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "314d28e8-a310-4668-a79e-d2ac02d95fe8",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T00:26:48.381Z",
+        "created_at": "2023-09-26T23:04:56.086Z",
+        "updated_at": "2023-09-27T09:38:25.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60eea901-cb8c-4cf9-835d-76ae8872a196",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-26T19:37:59.899Z",
+        "created_at": "2023-09-26T15:57:39.582Z",
+        "updated_at": "2023-09-27T07:07:31.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1bb21b6-b998-4aea-a90f-723c3a1aa65e",
+        "profile_visibility": "Friends only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-26T22:50:52.259Z",
+        "created_at": "2023-09-27T04:27:56.194Z",
+        "updated_at": "2023-09-26T23:30:22.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0f9d4ec-7a93-4f40-b9e5-25f40d72816d",
+        "profile_visibility": "Custom",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T05:14:43.978Z",
+        "created_at": "2023-09-26T16:55:24.792Z",
+        "updated_at": "2023-09-27T00:55:17.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed4e886f-eedc-48a0-abc2-152ac39f94d2",
+        "profile_visibility": "Hidden",
+        "profile_status": "Suspended",
+        "last_login": "2023-09-27T09:40:40.119Z",
+        "created_at": "2023-09-27T01:13:10.217Z",
+        "updated_at": "2023-09-27T10:42:59.053Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d24af604-ed1f-4dee-9cbf-d47c4f8fea6c",
+        "role_name": "Admin",
+        "permissions": "Read",
+        "last_login": "2023-09-26T16:41:45.988Z",
+        "created_at": "2023-09-26T19:49:30.816Z",
+        "updated_at": "2023-09-27T14:19:36.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "567a1874-40b3-49c4-94bc-f6a3e9a9f776",
+        "role_name": "Superuser",
+        "permissions": "Write",
+        "last_login": "2023-09-26T23:41:42.604Z",
+        "created_at": "2023-09-27T08:18:30.921Z",
+        "updated_at": "2023-09-27T10:42:58.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc583187-0d04-46bd-8635-b1aa8cf990a4",
+        "role_name": "Moderator",
+        "permissions": "Delete",
+        "last_login": "2023-09-26T23:01:01.014Z",
+        "created_at": "2023-09-27T11:34:05.117Z",
+        "updated_at": "2023-09-27T09:43:00.328Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c91271b0-2cd0-492a-ac9b-08a701fc8618",
+        "role_name": "Support",
+        "permissions": "Approve",
+        "last_login": "2023-09-27T14:02:16.784Z",
+        "created_at": "2023-09-27T11:01:38.972Z",
+        "updated_at": "2023-09-27T05:29:28.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15e61576-edf6-4b28-894b-b55ab6a6e2e9",
+        "role_name": "Analyst",
+        "permissions": "Manage",
+        "last_login": "2023-09-26T16:24:25.302Z",
+        "created_at": "2023-09-27T00:43:21.662Z",
+        "updated_at": "2023-09-27T07:43:47.856Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4d82a118-01c1-43e5-9c26-02e777b8684b",
+        "email": "Francesco_Terry@roq.tech",
+        "firstName": "Destini",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78957591",
+        "tenantId": null
+      },
+      {
+        "reference": "3b8fc8de-1ffa-418b-a74c-f2ebf4ad35ff",
+        "email": "Haven.Ledner@roq.tech",
+        "firstName": "Ilene",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9697030",
+        "tenantId": null
+      },
+      {
+        "reference": "fca5895e-ba80-4da4-9ef3-b16d702a6849",
+        "email": "Theo1@roq.tech",
+        "firstName": "Makenzie",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4ba6880-b16f-49f4-a808-07a6589ae9f3",
+        "email": "Oren84@roq.tech",
+        "firstName": "Vivienne",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/590.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f37b3ca-4553-4a72-8d75-a78a5144ba16",
+        "email": "Al_White@roq.tech",
+        "firstName": "Santiago",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1165.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "88c5a464-d3c5-4ef2-8f6e-d52320c9c057",
+        "site_name": "My Website",
+        "site_description": "A website for showcasing my work",
+        "last_login": "2023-09-26T14:55:35.560Z",
+        "created_at": "2023-09-27T14:04:46.057Z",
+        "updated_at": "2023-09-27T00:51:23.756Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1006ae-9cf0-4a32-8e8e-2e23e635e96d",
+        "site_name": "Awesome Site",
+        "site_description": "An amazing site for all your needs",
+        "last_login": "2023-09-27T08:16:59.328Z",
+        "created_at": "2023-09-27T00:44:40.559Z",
+        "updated_at": "2023-09-27T00:38:53.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "527f8ba4-7a25-425c-b204-dbde39a10e5b",
+        "site_name": "Best Webpage",
+        "site_description": "The best webpage you'll ever visit",
+        "last_login": "2023-09-26T23:24:28.138Z",
+        "created_at": "2023-09-27T01:48:16.134Z",
+        "updated_at": "2023-09-26T21:23:33.899Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71ef7241-ef34-4c17-98f6-640a6fc81f49",
+        "site_name": "Top Website",
+        "site_description": "The top website in its category",
+        "last_login": "2023-09-26T21:12:02.075Z",
+        "created_at": "2023-09-27T09:49:25.758Z",
+        "updated_at": "2023-09-26T21:39:47.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "212fca09-ba1d-4ac7-a182-20690ea9ff70",
+        "site_name": "Superior Site",
+        "site_description": "A superior site with great features",
+        "last_login": "2023-09-26T21:07:40.445Z",
+        "created_at": "2023-09-27T08:47:38.107Z",
+        "updated_at": "2023-09-27T02:39:11.588Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "e4e7d8aa-fb49-44c6-9a41-590ffbb35c73",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T06:51:17.181Z",
+        "created_at": "2023-09-26T15:45:25.758Z",
+        "updated_at": "2023-09-27T02:41:06.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c547b5ac-92ed-4e1e-8aef-05f25182f68f",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T04:45:48.568Z",
+        "created_at": "2023-09-27T09:31:28.621Z",
+        "updated_at": "2023-09-27T10:44:11.243Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c72e3781-c668-4902-af7d-a8592032bbcb",
+        "profile_visibility": "Friends Only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-26T23:45:12.211Z",
+        "created_at": "2023-09-27T07:15:38.442Z",
+        "updated_at": "2023-09-27T00:50:29.985Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "294f5ede-a6e0-4b87-a7a1-68b34e322bfd",
+        "profile_visibility": "Limited",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-27T01:32:08.211Z",
+        "created_at": "2023-09-26T22:28:48.884Z",
+        "updated_at": "2023-09-27T14:25:07.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be7bca69-82a6-4375-a74f-8c27088523a4",
+        "profile_visibility": "Custom",
+        "profile_status": "Verified",
+        "last_login": "2023-09-27T04:45:45.767Z",
+        "created_at": "2023-09-26T22:27:32.848Z",
+        "updated_at": "2023-09-27T10:13:00.029Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "7c8108a6-d0b3-45b8-91e6-a569a21f12a9",
+        "role_name": "Admin",
+        "permissions": "Manage Users",
+        "last_login": "2023-09-27T02:26:36.444Z",
+        "created_at": "2023-09-27T06:56:17.222Z",
+        "updated_at": "2023-09-26T16:11:35.902Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8da0e272-3930-4453-bab8-1bd33a6831ff",
+        "role_name": "Superuser",
+        "permissions": "Create Content",
+        "last_login": "2023-09-27T03:34:33.360Z",
+        "created_at": "2023-09-26T22:22:19.779Z",
+        "updated_at": "2023-09-27T01:20:24.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f5e8432-14ba-42d1-9845-e50514e240ae",
+        "role_name": "Moderator",
+        "permissions": "Edit Settings",
+        "last_login": "2023-09-27T06:46:48.365Z",
+        "created_at": "2023-09-26T22:37:26.669Z",
+        "updated_at": "2023-09-26T17:48:32.281Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb2ade56-7586-45d9-bb36-d5cbb71c0f9b",
+        "role_name": "Editor",
+        "permissions": "View Analytics",
+        "last_login": "2023-09-27T07:03:08.795Z",
+        "created_at": "2023-09-26T21:25:56.322Z",
+        "updated_at": "2023-09-27T12:54:02.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22298236-8acb-417a-8e0d-f91623f00c09",
+        "role_name": "Support",
+        "permissions": "Approve Requests",
+        "last_login": "2023-09-27T06:41:14.347Z",
+        "created_at": "2023-09-27T04:16:16.124Z",
+        "updated_at": "2023-09-27T11:52:59.193Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fe168eb9-a624-4262-aa57-dbf962d75f33",
+        "email": "Stacy.Larson0@roq.tech",
+        "firstName": "Roderick",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93b48731-2bb3-48da-8a1f-82b967a11bb3",
+        "email": "Aleen71@roq.tech",
+        "firstName": "Chauncey",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fec46e49-a386-4516-a4f8-0fcfc58f1c83",
+        "email": "Jordan.Oberbrunner@roq.tech",
+        "firstName": "Newton",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49597226",
+        "tenantId": null
+      },
+      {
+        "reference": "51209c06-e884-4678-82d2-e951ba3c7a2b",
+        "email": "Cleo.Harris@roq.tech",
+        "firstName": "Nicole",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78796252",
+        "tenantId": null
+      },
+      {
+        "reference": "5d8df9c2-142b-4a80-a342-7b26fcb28ed2",
+        "email": "Michale11@roq.tech",
+        "firstName": "Kennedy",
+        "lastName": "Dicki-Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/378.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "8167fe2c-cd2e-4510-b459-50a50e7055e9",
+        "site_name": "Example Site 1",
+        "site_description": "This is a description for Example Site 1",
+        "last_login": "2023-09-26T15:38:55.339Z",
+        "created_at": "2023-09-26T20:51:43.857Z",
+        "updated_at": "2023-09-27T03:35:39.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "415acd36-b1c5-4636-8cb2-1a694260b83e",
+        "site_name": "Example Site 2",
+        "site_description": "This is a description for Example Site 2",
+        "last_login": "2023-09-26T19:27:20.704Z",
+        "created_at": "2023-09-27T08:02:36.842Z",
+        "updated_at": "2023-09-27T07:49:31.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfa2da1e-761a-4269-ad53-68b89c73a311",
+        "site_name": "Example Site 3",
+        "site_description": "This is a description for Example Site 3",
+        "last_login": "2023-09-27T11:27:37.833Z",
+        "created_at": "2023-09-27T13:10:20.104Z",
+        "updated_at": "2023-09-27T12:25:39.120Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48bfc29c-55a8-478d-8bd8-a0789dbbbc97",
+        "site_name": "Example Site 4",
+        "site_description": "This is a description for Example Site 4",
+        "last_login": "2023-09-27T03:25:31.979Z",
+        "created_at": "2023-09-26T22:41:12.937Z",
+        "updated_at": "2023-09-27T05:38:09.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df4c6033-1836-4cf1-9469-417b89d0f07d",
+        "site_name": "Example Site 5",
+        "site_description": "This is a description for Example Site 5",
+        "last_login": "2023-09-27T14:37:10.995Z",
+        "created_at": "2023-09-27T13:19:14.325Z",
+        "updated_at": "2023-09-27T06:43:19.528Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "fa9f2904-0ff7-4841-8574-ccb969da162c",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-26T16:43:35.784Z",
+        "created_at": "2023-09-27T08:56:26.741Z",
+        "updated_at": "2023-09-27T00:18:34.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7f7d3a1-c69f-409d-93d3-3f8769226e72",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-27T09:59:18.097Z",
+        "created_at": "2023-09-27T04:48:05.564Z",
+        "updated_at": "2023-09-26T23:12:12.220Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27204112-a0a7-456f-82fd-3e4588c48ef1",
+        "profile_visibility": "Friends Only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T14:03:12.771Z",
+        "created_at": "2023-09-27T04:47:51.571Z",
+        "updated_at": "2023-09-26T23:49:29.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d114d091-bf6e-4cfa-a376-2494774d66e9",
+        "profile_visibility": "Custom",
+        "profile_status": "Suspended",
+        "last_login": "2023-09-27T03:50:02.478Z",
+        "created_at": "2023-09-27T08:55:49.187Z",
+        "updated_at": "2023-09-27T00:01:51.734Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b591350-a5d0-4d61-9fb9-cefe3b1be679",
+        "profile_visibility": "Hidden",
+        "profile_status": "Archived",
+        "last_login": "2023-09-27T09:04:02.636Z",
+        "created_at": "2023-09-27T01:20:06.476Z",
+        "updated_at": "2023-09-27T07:21:48.558Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "c0b0c38b-858a-4299-a6d9-8129b0bdc5cc",
+        "role_name": "Admin",
+        "permissions": "Manage Users",
+        "last_login": "2023-09-26T15:16:54.692Z",
+        "created_at": "2023-09-26T18:15:15.493Z",
+        "updated_at": "2023-09-27T07:07:16.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bc1d18d-26ab-4364-8c13-49829bf00961",
+        "role_name": "Superuser",
+        "permissions": "Manage Content",
+        "last_login": "2023-09-27T01:17:23.602Z",
+        "created_at": "2023-09-26T18:04:24.779Z",
+        "updated_at": "2023-09-27T13:56:06.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4fde86b-868d-447d-bfc3-c32ff1df11ee",
+        "role_name": "Moderator",
+        "permissions": "Manage Settings",
+        "last_login": "2023-09-27T03:39:53.773Z",
+        "created_at": "2023-09-26T20:08:36.136Z",
+        "updated_at": "2023-09-26T15:05:49.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f80c37e-38bd-4e80-b343-d3d19e988acb",
+        "role_name": "Editor",
+        "permissions": "View Reports",
+        "last_login": "2023-09-26T20:21:48.763Z",
+        "created_at": "2023-09-27T09:38:51.921Z",
+        "updated_at": "2023-09-27T02:25:54.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "527bd834-066c-48b0-8fec-1eec9b520938",
+        "role_name": "Support",
+        "permissions": "Perform Actions",
+        "last_login": "2023-09-27T07:09:48.800Z",
+        "created_at": "2023-09-27T14:41:20.231Z",
+        "updated_at": "2023-09-27T13:36:11.199Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96f65dd5-82bf-43cb-aaf2-ee4086a5c17e",
+        "email": "Edward76@roq.tech",
+        "firstName": "Gabriel",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27617001",
+        "tenantId": null
+      },
+      {
+        "reference": "7f7abc75-c0b7-41b5-831d-4c214787a73f",
+        "email": "Jaden1@roq.tech",
+        "firstName": "Felipe",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1189.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1749351d-7c7c-4ec8-97a5-2d36146f7396",
+        "email": "Madelynn_Cruickshank33@roq.tech",
+        "firstName": "Jon",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1244866",
+        "tenantId": null
+      },
+      {
+        "reference": "452769cc-9490-4f9f-b4fd-ac367bd5613f",
+        "email": "Brennan.Langworth@roq.tech",
+        "firstName": "Roderick",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79252018",
+        "tenantId": null
+      },
+      {
+        "reference": "33e0b416-57ef-4eb0-9678-1e3402758428",
+        "email": "Therese_Spinka8@roq.tech",
+        "firstName": "Palma",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/660.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "site_owner": [
+      {
+        "id": "7126051f-b6a0-45cc-ad2c-39a55dd7623c",
+        "site_name": "Example Site 1",
+        "site_description": "This is an example site",
+        "last_login": "2023-09-27T14:40:14.916Z",
+        "created_at": "2023-09-26T19:06:54.656Z",
+        "updated_at": "2023-09-26T17:09:57.780Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90779340-6ae7-4b9b-8d94-33db53bb5e29",
+        "site_name": "Example Site 2",
+        "site_description": "Lorem ipsum dolor sit amet",
+        "last_login": "2023-09-27T13:28:45.613Z",
+        "created_at": "2023-09-26T20:11:23.245Z",
+        "updated_at": "2023-09-27T03:33:02.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d19932d5-3ba1-48a4-bc5c-ab5b285cec4d",
+        "site_name": "Example Site 3",
+        "site_description": "Consectetur adipiscing elit",
+        "last_login": "2023-09-27T10:53:35.829Z",
+        "created_at": "2023-09-27T00:20:10.341Z",
+        "updated_at": "2023-09-27T08:55:47.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b691be49-6fe7-4a65-b495-38576458ad8f",
+        "site_name": "Example Site 4",
+        "site_description": "Sed do eiusmod tempor incididunt",
+        "last_login": "2023-09-26T22:50:09.830Z",
+        "created_at": "2023-09-26T20:11:22.394Z",
+        "updated_at": "2023-09-26T19:46:13.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a068823e-9249-40b9-9260-56d1fd7c1e01",
+        "site_name": "Example Site 5",
+        "site_description": "Ut labore et dolore magna aliqua",
+        "last_login": "2023-09-27T03:36:08.686Z",
+        "created_at": "2023-09-27T11:07:58.793Z",
+        "updated_at": "2023-09-26T22:43:23.340Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "359f5651-3c9d-4e3d-89d9-3fc9c2ff3fe0",
+        "profile_visibility": "Public",
+        "profile_status": "Active",
+        "last_login": "2023-09-27T04:51:28.567Z",
+        "created_at": "2023-09-27T04:59:07.095Z",
+        "updated_at": "2023-09-27T01:52:28.063Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c1b5e8d-371b-4809-98e4-aa71732dfbb6",
+        "profile_visibility": "Private",
+        "profile_status": "Inactive",
+        "last_login": "2023-09-26T18:07:02.114Z",
+        "created_at": "2023-09-27T13:44:59.349Z",
+        "updated_at": "2023-09-27T01:19:01.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d56b4fb7-481b-4ca1-971d-0c1b101f80fd",
+        "profile_visibility": "Friends only",
+        "profile_status": "Pending",
+        "last_login": "2023-09-27T05:58:15.413Z",
+        "created_at": "2023-09-26T16:28:56.280Z",
+        "updated_at": "2023-09-26T18:33:38.998Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "168beaf0-d04d-418a-b7e5-7f4d548aa0c7",
+        "profile_visibility": "Limited",
+        "profile_status": "Blocked",
+        "last_login": "2023-09-26T18:41:14.263Z",
+        "created_at": "2023-09-26T17:08:26.680Z",
+        "updated_at": "2023-09-26T17:34:03.910Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdd799ff-6119-477f-9e1d-cc1a5e3334f4",
+        "profile_visibility": "Custom",
+        "profile_status": "Verified",
+        "last_login": "2023-09-27T00:19:37.145Z",
+        "created_at": "2023-09-27T12:46:20.717Z",
+        "updated_at": "2023-09-26T22:37:29.561Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "e71b2f46-bfce-4e43-8ce9-3ca35814233c",
+        "role_name": "Admin",
+        "permissions": "Read",
+        "last_login": "2023-09-26T18:11:01.249Z",
+        "created_at": "2023-09-27T09:09:52.251Z",
+        "updated_at": "2023-09-26T15:32:05.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46a045c9-2b6a-4712-bfc3-fa577323b279",
+        "role_name": "Super Admin",
+        "permissions": "Write",
+        "last_login": "2023-09-26T15:47:43.532Z",
+        "created_at": "2023-09-26T16:48:27.259Z",
+        "updated_at": "2023-09-26T21:38:52.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4dbb6ea-31a5-49eb-88f6-13dc2dfb634a",
+        "role_name": "Moderator",
+        "permissions": "Delete",
+        "last_login": "2023-09-27T10:07:00.539Z",
+        "created_at": "2023-09-26T19:56:03.830Z",
+        "updated_at": "2023-09-27T01:03:27.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11f96532-da6f-4c02-9b02-cd09a078cf51",
+        "role_name": "Editor",
+        "permissions": "Update",
+        "last_login": "2023-09-26T19:52:35.330Z",
+        "created_at": "2023-09-27T03:53:19.946Z",
+        "updated_at": "2023-09-27T04:44:46.780Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1302242e-cd34-41bd-92b8-2e8765456a7e",
+        "role_name": "Contributor",
+        "permissions": "Manage",
+        "last_login": "2023-09-27T00:21:01.576Z",
+        "created_at": "2023-09-26T15:53:18.254Z",
+        "updated_at": "2023-09-27T12:49:05.022Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a04cc975-958a-4ae7-bd18-53a36f4a0e49",
+        "email": "Marlen_Heller6@roq.tech",
+        "firstName": "Arne",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78c6ae43-18c0-4080-8ee5-4eddd8a63e3c",
+        "email": "Sydnie.Nader7@roq.tech",
+        "firstName": "Uriel",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/478.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3031a553-d569-4f5a-8a99-f81c279e03be",
+        "email": "Tiffany59@roq.tech",
+        "firstName": "Sydni",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/403.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e06de2e-eaf2-4de6-af42-bd33b14f8377",
+        "email": "Marlon55@roq.tech",
+        "firstName": "Thelma",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e363aa0-6de9-4f57-80f0-a86064edf98d",
+        "email": "Nichole.Bartoletti23@roq.tech",
+        "firstName": "Raphael",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86210028",
+        "tenantId": null
+      }
+    ]
+  }
+]
